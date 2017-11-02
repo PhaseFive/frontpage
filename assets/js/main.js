@@ -5,6 +5,7 @@
 */
 
 (function($) {
+	var mobileLogo = 'Phase 5';
 
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
@@ -51,7 +52,7 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title">' + mobileLogo + '</span>' +
 					'</div>'
 				)
 					.appendTo($body);
